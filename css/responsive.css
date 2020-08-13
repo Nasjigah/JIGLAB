@@ -1,0 +1,120 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    
+}
+    
+    
+    
+    
+    
+    
+    /* small tablet to big tablets: from 768px - 1023px */
+@media only screen and (max-width: 1023px) {
+    
+    #navbarResp { 
+        background-color: #5b32b4;
+        padding: 30px; 
+        border-radius: 3px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    
+    .signup-btn { margin-top: 30px; }
+    
+    
+    .wellcome-heading {
+    margin-top: 220px;
+    margin-bottom: 80px;
+}
+    
+    .wellcome-heading > h3 { 
+        font-size: 252px;
+        top: 130px;
+    }
+    
+    .wellcome-heading .lead { font-size: 16px; }
+    
+    
+    .welcome-phone { 
+        margin-top: 20px !important;
+        width: 75%;
+        left: 40%;
+    }
+    
+    #about { margin-top: 120px; }
+    
+    
+    
+    
+
+
+}
+   
+
+    
+    
+    
+    
+    
+    
+    /* small phones to small tablets: from 481px - 767px */
+@media only screen and (max-width: 767px) {
+    
+     h1 { font-size: 55px; }
+    
+    h2 { font-size: 30px; }
+    
+    h4 { font-size: 22px; }
+    
+    #main-nav { padding: 10px 5px !important; }
+    
+    #main-nav .navbar-brand { font-size: 40px !important; }
+    
+    .play-store { display: block; }
+    
+    
+    .welcome-phone {
+
+            width: 90%;
+            margin-right: 50px;
+            margin-top: 10px;
+        }
+    
+        
+    
+    
+   
+   
+    
+    
+    
+}
+    
+    
+    
+    
+    
+    /* small phones: from 0-480px */
+@media only screen and (max-width: 480px) {
+    
+    
+     .wellcome-heading > h1 { font-size: 60px; }
+        .wellcome-heading > h3 { font-size: 250px !important;}
+        .welcome-phone {
+            position: absolute;
+            width: 80% !important;
+            left: 10% !important;
+            margin-top: 50px !important;
+        }
+    
+        #about { margin: 10px 0; }
+    
+        
+    
+        .proposition {margin-top: 30px !important;}
+        .client-description {font-size: 16px;}
+        
+    .get-start-area { margin-bottom: 60px; }
+    
+    .wellcome-heading { margin-bottom: 30px !important; }
+}
